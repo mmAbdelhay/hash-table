@@ -1,5 +1,12 @@
 # Hash Table Implementation
 
+---
+
+Student name : muhammad Muhammad abdelhay Muhammad Ibrahim
+Student id : 1404-3-087
+
+---
+
 This project provides a simple implementation of a hash table using linear probing in Python. The project is divided into two main files:
 
 ## Files
@@ -46,3 +53,49 @@ To run the program, execute the `main.py` script. Follow the on-screen prompts t
 4. Follow the on-screen prompts to interact with the hash table.
 
 ---
+
+# Image Gallery
+
+### create new hash table
+
+![create_new_hash_table](./screenshots\create_new_hash_table.png)
+
+### delete from hash table
+
+![delete_from_hash_table](./screenshots\delete_from_hash_table.png)
+
+### display hash table
+
+![display_hash_tble](./screenshots\display_hash_tble.png)
+
+### insert into hash table (not a valid key)
+
+![insert_into_hash_table_(not_a_valid_key)](<./screenshots\insert_into_hash_table_(not_a_valid_key).png>)
+
+### insert into hash table (valid key)
+
+![insert_into_hash_table_(valid_key)](<./screenshots\insert_into_hash_table_(valid_key).png>)
+
+### invalid choice
+
+![invalid_choice](./screenshots\invalid_choice.png)
+
+### json file not found
+
+![json_file_not_found](./screenshots\json_file_not_found.png)
+
+### load from json file
+
+![load_from_json_file](./screenshots\load_from_json_file.png)
+
+### save to json file
+
+![save_to_json_file](./screenshots\save_to_json_file.png)
+
+### search for a key
+
+![search_for_a_key](./screenshots\search_for_a_key.png)
+
+### update value in hash table
+
+![update_value_in_hash_table](./screenshots\update_value_in_hash_table.png)
