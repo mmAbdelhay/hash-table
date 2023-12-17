@@ -58,44 +58,44 @@ To run the program, execute the `main.py` script. Follow the on-screen prompts t
 
 ### create new hash table
 
-![create_new_hash_table](./screenshots\create_new_hash_table.png)
+![create_new_hash_table](./screenshots/create_new_hash_table.png)
 
 ### delete from hash table
 
-![delete_from_hash_table](./screenshots\delete_from_hash_table.png)
+![delete_from_hash_table](./screenshots/delete_from_hash_table.png)
 
 ### display hash table
 
-![display_hash_tble](./screenshots\display_hash_tble.png)
+![display_hash_tble](./screenshots/display_hash_tble.png)
 
 ### insert into hash table (not a valid key)
 
-![insert_into_hash_table_(not_a_valid_key)](<./screenshots\insert_into_hash_table_(not_a_valid_key).png>)
+![insert_into_hash_table_(not_a_valid_key)](<./screenshots/insert_into_hash_table_(not_a_valid_key).png>)
 
 ### insert into hash table (valid key)
 
-![insert_into_hash_table_(valid_key)](<./screenshots\insert_into_hash_table_(valid_key).png>)
+![insert_into_hash_table_(valid_key)](<./screenshots/insert_into_hash_table_(valid_key).png>)
 
 ### invalid choice
 
-![invalid_choice](./screenshots\invalid_choice.png)
+![invalid_choice](./screenshots/invalid_choice.png)
 
 ### json file not found
 
-![json_file_not_found](./screenshots\json_file_not_found.png)
+![json_file_not_found](./screenshots/json_file_not_found.png)
 
 ### load from json file
 
-![load_from_json_file](./screenshots\load_from_json_file.png)
+![load_from_json_file](./screenshots/load_from_json_file.png)
 
 ### save to json file
 
-![save_to_json_file](./screenshots\save_to_json_file.png)
+![save_to_json_file](./screenshots/save_to_json_file.png)
 
 ### search for a key
 
-![search_for_a_key](./screenshots\search_for_a_key.png)
+![search_for_a_key](./screenshots/search_for_a_key.png)
 
 ### update value in hash table
 
-![update_value_in_hash_table](./screenshots\update_value_in_hash_table.png)
+![update_value_in_hash_table](./screenshots/update_value_in_hash_table.png)
