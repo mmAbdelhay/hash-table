@@ -23,10 +23,24 @@ class HashTableLinearProbing:
 
         except (FileNotFoundError, json.JSONDecodeError):
             print("JSON file not found or invalid. Using default hash table.")
-
+   
     def calc_hash(self, key):
-        # Simple hash function using the built-in hash function
-        return hash(key) % self.size
+        l = len(key)
+        hash_value = 0
+
+        for i in range(l):
+            hash_value += ord(key[i])
+            hash_value += (hash_value << 10)
+            hash_value ^= (hash_value >> 6)
+
+        hash_value += (hash_value << 3)
+        hash_value ^= (hash_value >> 11)
+        hash_value += (hash_value << 15)
+
+        if hash_value > 0:
+            return hash_value % self.size
+        else:
+            return -hash_value % self.size
 
     def insert(self, key, value):
         if None not in self.table and not self.search(key):
@@ -88,3 +102,4 @@ class HashTableLinearProbing:
                 print(f"Index {i}: Key = {key}, Value = {value}")
             else:
                 print(f"Index {i}: Empty")
+
